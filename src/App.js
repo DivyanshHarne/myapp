@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+
+function MyComponent({name, nameforclass, income = 20}){ // Default value can be given here which is used when no value is passed to function.
+  return(   // this fuction can only return a single component, that is why we use empty tag to retyrn more than one component.  
+    <>      
+    <div className={nameforclass}>{name}: ${income}</div>
+    <hr/>
+    </>
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='23' className='Different'>
+      Hello 
+      <MyComponent name = {"Dev"}  nameforclass={"div1"} income={200}/>
+      <MyComponent name={"blud"}  nameforclass={"div2"}/>
+      <MyComponent name={"Chatur"}  nameforclass={"div3"} income={310}/> 
+      World!!
+      <button>Press</button>
     </div>
   );
 }
