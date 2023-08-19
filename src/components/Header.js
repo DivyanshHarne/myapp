@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <nav>Header</nav>
+    <nav>Complete Your daily goals!!!</nav>
   )
 }
 

@@ -1,18 +1,15 @@
 import './App.css';
 import Header from './components/Header';
-import { ManBat } from './components/Header'; // Destructured way of importing in Node.js
-
+import { Home } from './components/Home';
+// import Task from './components/Task';
 
 function App() {
   return (
     <div id='23' className='Different'>
       <Header/>
-      Hello 
+      <Home/>
+      
        
-      World!!
-
-      <ManBat/>
-      <button>Press</button>
     </div>
   );
 }

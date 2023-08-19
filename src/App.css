@@ -2,3 +2,77 @@
   margin: 0;
   padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Tilt+Prism&display=swap');
+
+nav{
+  color: white;
+  background-color: #5d00ff;
+  padding: 15px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  text-align: center;
+}
+
+.container{
+  background-color: hsl(280, 100%, 90%);
+  width: 69%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+.container > h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 2.4rem;
+}
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, button{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  border-radius: 5px;
+  margin: 10px ;
+  font-size: 1.2rem;
+}
+button{
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: blueviolet;
+}
+/* *{
+  border: 1px solid red;
+}  */
+.task{
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  align-items: center;
+}
+.task > div{
+  width: 100%;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+.task > span{
+  color: rgba(0, 0, 0, 0.434);
+}
+
+.task button{
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 92, 92);
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+.task button:hover{
+  background-color: rgb(255, 15, 15);
+}
