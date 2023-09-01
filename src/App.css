@@ -13,6 +13,21 @@ nav{
   text-align: center;
 }
 
+.header{
+  color: rgb(10, 248, 26);
+  padding: 30px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  text-align: center;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+}
+
+.header > a{
+  text-decoration: none;
+  color: black;
+  margin: 40px;
+
+}
+
 .container{
   background-color: hsl(280, 100%, 90%);
   width: 69%;
@@ -75,4 +90,28 @@ button{
 }
 .task button:hover{
   background-color: rgb(255, 15, 15);
+}
+
+.about{
+  background-color: navajowhite;
+  width: 100%;
+  height: 100vh;
+  color: gold;
+}
+.contact{
+  background-color: rgb(178, 255, 173);
+  width: 100%;
+  height: 100vh;
+  color: gold;
+}
+.user{
+  background-color: rgb(255, 0, 140);
+  width: 100%;
+  height: 100vh;
+  color: gold;
+}
+.footer{
+  background-color:rgb(20, 30, 30);
+  color: white;
+  padding: 30px;
 }
