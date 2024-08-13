@@ -7,7 +7,7 @@ const User = () => {
     const navigation = useNavigate(); // useNavigate takes you to desire location on any event.
 
   return (
-    <div className='user'>
+    <div id='user' className='user'>
         <button onClick={()=>{navigation("/about")}}> Click here!!</button>
 
     </div>

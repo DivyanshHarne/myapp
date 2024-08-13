@@ -33,7 +33,7 @@ export const Home = () => {
     return (
     <div className='container'>
         
-        <h1>Daily Goals</h1>
+        <h1>Broadcast Message</h1>
         <form onSubmit={submitHandler}>
             <input 
             type='text'
@@ -47,7 +47,7 @@ export const Home = () => {
             value = {description}
             onChange={(e)=>setDescription(e.target.value)}
             />
-            <button type='submit'> ADD</button>
+            <button type='submit'> SEND</button>
         </form>
         {tasks.map((item, index)=>(
             <Task 
